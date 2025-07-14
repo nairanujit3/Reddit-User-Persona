@@ -25,7 +25,7 @@ It creates structured persona files like this:
 ## 📁 Project Structure
 reddit-project/
 
-├── reddit_persona_extractor.py
+├── persona_extraction.py
 
 ├── personas/ # Output folder for persona .txt files
 
@@ -33,11 +33,11 @@ reddit-project/
 
 └── utils/
 
-├── reddit_scraper.py # Reddit data collection via PRAW
+  ├── scraper.py # Reddit data collection via PRAW
 
-├── persona_builder.py # Sends data to NVIDIA API, builds persona
+  ├── llm_person_builder.py # Sends data to NVIDIA API, builds persona
 
-└── citation_tracker.py # Matches quotes for traceability
+  └── traits_tracker.py # Matches quotes for traceability
 
 ---
 
