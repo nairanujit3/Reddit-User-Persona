@@ -24,12 +24,19 @@ It creates structured persona files like this:
 
 ## 📁 Project Structure
 reddit-project/
+
 ├── reddit_persona_extractor.py
+
 ├── personas/ # Output folder for persona .txt files
+
 ├── .env # Store Reddit and NVIDIA credentials here
+
 └── utils/
+
 ├── reddit_scraper.py # Reddit data collection via PRAW
+
 ├── persona_builder.py # Sends data to NVIDIA API, builds persona
+
 └── citation_tracker.py # Matches quotes for traceability
 
 ---
